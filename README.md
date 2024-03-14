@@ -7,6 +7,7 @@ In this experiment, different layer selection strategies were applied in the tra
 
 ![image](https://github.com/edvyan/A6_distilBERT/assets/46171741/43e4da7d-ff85-40b6-9b59-4058e50b05c9)
 
+Dataset: MNLI dataset https://cims.nyu.edu/~sbowman/multinli/   
 
 ## Experiment Results
 
@@ -35,8 +36,9 @@ In this experiment, different layer selection strategies were applied in the tra
 - **Validation Accuracy**: 66.50%
 
 ## Challenges Encountered
+- The initial layer selection is crucial for capturing task-specific features essential for the target task. Failure to align this layer selection with the student model's architecture and capabilities can hinder the effective transfer of knowledge distilled from the teacher model.
 - Challenges encountered in this experiment included the resource intensity and time consumption associated with training multiple student models, particularly with large datasets and complex models. 
 
 ## Proposed Improvement
-- To overcome these limitations, an improvement strategy could be to implement multiple student models that have been trained using different initial layer selection methods. 
-
+- Develop methods to dynamically choose initial layers that suit the student model's design and limits. 
+- Another improvement strategy could be to implement multiple student models that have been trained using different initial layer selection methods. 
