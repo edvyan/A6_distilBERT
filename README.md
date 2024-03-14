@@ -5,6 +5,7 @@
 
 ## Overview
 In this experiment, different layer selection strategies were applied in the training of student models using a teacher model. The outcomes varied across different strategies.
+![image](https://github.com/edvyan/A6_distilBERT/assets/46171741/43e4da7d-ff85-40b6-9b59-4058e50b05c9)
 
 ## Experiment Results
 
