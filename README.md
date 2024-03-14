@@ -38,5 +38,5 @@ In this experiment, different layer selection strategies were applied in the tra
 - Challenges encountered in this experiment included the resource intensity and time consumption associated with training multiple student models, particularly with large datasets and complex models. 
 
 ## Proposed Improvement
-- To overcome these limitations, an improvement strategy could be to ensemble multiple student models that have been trained using different initial layer selection methods. Ensemble methods typically lead to better performance and greater robustness.
+- To overcome these limitations, an improvement strategy could be to implement multiple student models that have been trained using different initial layer selection methods. 
 
